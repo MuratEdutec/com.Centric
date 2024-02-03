@@ -73,7 +73,6 @@ public class CentricStepDefinitions {
         driver.switchTo().window(mainWindowHandle); // Switch to the pop-up window
     }
 
-
     @Then("click LinkedIn Wijnand de Reeder, Sales Manager")
     public void clickLinkedInWijnandDeReederSalesManager() {
 
@@ -227,7 +226,7 @@ public class CentricStepDefinitions {
                 System.out.println(driver.switchTo().window(child_window).getTitle());
             }
         }
-             System.out.println(driver.getCurrentUrl());
+        System.out.println(driver.getCurrentUrl());
         pages.careers_cookie.click();
     }
 
